@@ -1,0 +1,86 @@
+body {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.register-container {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-container > h1 {
+    text-align: center;
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.register-container > * {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.register-container input[type="email"],
+.register-container input[type="password"],
+.register-container button {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.register-container input[type="email"],
+.register-container input[type="password"] {
+    background-color: #f7f7f7;
+}
+
+.register-container input[type="email"]:focus,
+.register-container input[type="password"]:focus {
+    outline: none;
+    background-color: #eee;
+}
+
+.register-container button {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-container button:hover {
+    background-color: #0056b3;
+}
+
+.register-container .links-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.register-container .links-container a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 12px;
+    transition: color 0.3s ease;
+}
+
+.register-container .links-container a:hover {
+    text-decoration: underline;
+}
+
+/*  返回登录链接动画效果   */
+.register-container button:hover {
+    background-color: #0056b3;
+}
+.register-container .links-container a:hover {
+    color: #0056b3;
+}
